@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+body {
+  font-family: "Nanum Pen Script", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+#login-form {
+  position: absolute;
+  top: 20em;
+  left: 50em;
+  text-align: center;
+}
+
+#login-form span {
+  font-size: 50px;
+}
+
+#login-form div {
+  padding-top: 20px;
+}
+
+#box1 {
+  position: absolute;
+  top: 10em;
+  left: 10em;
+}
+
+#box2 {
+  position: absolute;
+  top: 40em;
+  right: 5em;
+}
+
+#box1,
+#box2 {
+  width: 10%;
+  height: 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#wrap {
+  width: 100%;
+  height: 100vh;
+  padding: 10em;
+  box-sizing: border-box;
+
+  background-image: url(img/Main_diary.PNG);
+  background-repeat: no-repeat;
+  background-position: top 33% center;
+}
+
+.col1 {
+  float: left;
+  position: relative;
+  left: 25em;
+}
+
+#clock {
+  font-size: 50px;
+}
+
+#greeting {
+  font-size: 80px;
+}
+
+#todo-form input {
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#weather {
+  font-size: 20px;
+  padding-top: 50%;
+}
+
+.col2 {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  /* position: absolute; */
+  left: 40em;
+}
+
+#todo-list {
+  list-style: none;
+  font-size: 20px;
+  line-height: 48px;
+  width: 100%;
+  height: 100%;
+}
+
+#quote {
+  position: absolute;
+  /* position: fixed; */
+  top: 25em;
+  font-size: 20px;
+}
+
+#quote span:first-child {
+  font-weight: bold;
+}
