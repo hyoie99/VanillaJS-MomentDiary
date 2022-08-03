@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+// @keyframes
+body {
+  //   background-color: black;
+  font-family: "Nanum Pen Script", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #login-form {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    span {
+      font-size: 65px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      input {
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: center;
+        border-width: 0 3px 3px 0;
+      }
+      button {
+        margin-top: 20px;
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+  #wrap {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    background-image: url(../img/Main_diary.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 33% center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .col1 {
+      margin-right: 200px;
+      #greeting {
+        font-size: 47px;
+      }
+      #todo-form {
+        input {
+          font-size: 12px;
+          text-align: center;
+          border-width: 0 3px 3px 0;
+        }
+      }
+      #weather {
+        margin-top: 200px;
+        span {
+          &:first-child {
+            font-size: 18px;
+          }
+          &:last-child {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    .col2 {
+      margin-left: 100px;
+      #todo-list {
+        margin-bottom: 200px;
+      }
+    }
+  }
+  .box {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}

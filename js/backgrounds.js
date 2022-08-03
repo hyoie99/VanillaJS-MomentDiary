@@ -1,5 +1,5 @@
-const box1 = document.querySelector("#box1");
-const box2 = document.querySelector("#box2");
+const box1 = document.querySelector(".box1");
+const box2 = document.querySelector(".box2");
 const images = ["img1.PNG", "img2.PNG", "img3.PNG", "img4.PNG"];
 
 function chooseImg() {
