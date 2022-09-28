@@ -5,4 +5,4 @@ Vanila JS challenge with NomadCoder
 By Clone "Momentum"
 
 =>
-https://hyoie99.github.io/Moment_diary/
+https://hyoie99.github.io/VanillaJS-Moment_diary/
